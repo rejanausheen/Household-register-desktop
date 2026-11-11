@@ -1,0 +1,9 @@
+BUILD THE WINDOWS .EXE INSTALLER (run on a Windows PC)
+1. Install Node.js LTS from https://nodejs.org
+2. Open this folder in a terminal (Command Prompt or PowerShell).
+3. Run:   npm install
+4. Test:  npm start          (opens the app in its own window)
+5. Build: npm run dist
+Result: dist\Household Help Register Setup 1.0.0.exe  (installer with Start menu + desktop shortcut)
+Windows SmartScreen may warn on first run because the installer is unsigned: More info > Run anyway.
+Note: data is stored inside the installed app. Use Settings > Backup before uninstalling.
